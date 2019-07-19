@@ -274,6 +274,15 @@ object Connection4 extends App {
       val sql = updated.statements.head
       println(sql)
     }*/
+    {
+      val isRoast = true
+      val isEspresso = false
+
+      val q6 = users
+        .filterIf(isRoast)(_.id > 2)
+        .filterIf(isEspresso)(_.id > 2)
+      println(q6.result.statements.head)
+    }
 
   } finally db.close
 }
