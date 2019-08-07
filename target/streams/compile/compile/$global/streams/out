@@ -1,4 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/home/gin/cjx-scala/simple-scala-project/src/main/scala/slick/code/Connection.scala:17:25: value result is not a member of String[0m
-[0m[[0m[31merror[0m] [0m[0m  Await.result(db.run(q.result).map { result => println(result.mkString("\n"))}, 60 seconds)[0m
-[0m[[0m[31merror[0m] [0m[0m                        ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
