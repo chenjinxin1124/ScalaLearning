@@ -61,13 +61,13 @@ object Connection4 extends App {
       val sql: String =q.result.statements.head
       println(s"sql : $sql")
     };*/
-    /*{
+    {
       val optionFromPrice = Option(3)
       val q = scores.filterOpt(optionFromPrice)(_.score > _)
       Await.result(db.run(q.result).map { result => println(result.mkString("\n")) }, 60 seconds)
       val sql: String =q.result.statements.head
       println(s"sql : $sql")
-    };*/
+    };
 
     //join
     /*{
@@ -274,7 +274,7 @@ object Connection4 extends App {
       val sql = updated.statements.head
       println(sql)
     }*/
-    {
+    /*{
       val isRoast = true
       val isEspresso = false
 
@@ -282,7 +282,7 @@ object Connection4 extends App {
         .filterIf(isRoast)(_.id > 2)
         .filterIf(isEspresso)(_.id > 2)
       println(q6.result.statements.head)
-    }
+    }*/
 
   } finally db.close
 }

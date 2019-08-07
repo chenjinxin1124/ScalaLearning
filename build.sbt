@@ -9,3 +9,10 @@ libraryDependencies ++= Seq(
   "org.postgresql" % "postgresql" % "42.2.5", //org.postgresql.ds.PGSimpleDataSource dependency
   "com.typesafe.slick" %% "slick-codegen" % "3.3.1"
 )
+
+libraryDependencies ++= Seq(
+  "com.typesafe.akka" %% "akka-http" % "10.1.9"
+  , "com.typesafe.akka" %% "akka-stream" % "2.5.23" // or whatever the latest version is
+  , "com.typesafe.akka" %% "akka-actor" % "2.5.23"
+  , "com.typesafe.akka" %% "akka-http-spray-json" % "10.1.9"
+)
