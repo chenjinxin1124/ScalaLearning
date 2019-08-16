@@ -1,4 +1,4 @@
-package slick.code
+package slickTest.code
 
 //object Tables extends {
 //  // or just use object demo.Tables, which is hard-wired to the driver stated during generation
@@ -13,7 +13,7 @@ import scala.util.{Failure, Success}
 import scala.concurrent.{Await, Future}
 import Tables.profile.api._
 import slick.basic.DatabasePublisher
-import slick.code.Connection.{db, q}
+import Connection.{db, q}
 
 import scala.concurrent.ExecutionContext.Implicits.global
 

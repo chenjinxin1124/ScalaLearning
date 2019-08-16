@@ -1,4 +1,4 @@
-package slick.code
+package slickTest.code
 
 //object Tables extends {
 //  // or just use object demo.Tables, which is hard-wired to the driver stated during generation

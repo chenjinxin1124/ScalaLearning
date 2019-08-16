@@ -1,4 +1,4 @@
-package slick.code.PlainSQLQueries
+package slickTest.code.PlainSQLQueries
 
 import scala.collection.mutable.ArrayBuffer
 import scala.concurrent.{Await, Future}

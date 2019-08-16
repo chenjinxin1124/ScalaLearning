@@ -1,4 +1,4 @@
-package slick.akkaHttp
+package slickTest.akkaHttp
 
 class HttpServerExampleSpec {
 

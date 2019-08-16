@@ -1,4 +1,4 @@
-package slick.code
+package slickTest.code
 
 //#imports
 import java.sql.Blob

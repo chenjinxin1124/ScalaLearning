@@ -1,22 +1,22 @@
-package slick.akkaHttp
+package slickTest.akkaHttp
 
-import slick.driver.PostgresDriver.api._
-import scala.language.postfixOps
-import scala.concurrent.Future
-import akka.http.scaladsl.server.Directives.{complete, get, parameters, path, pathPrefix}
 import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.model._
-import akka.http.scaladsl.server.Directives._
+import akka.http.scaladsl.server.Directives.{complete, get, parameters, path, pathPrefix, _}
 import akka.stream.ActorMaterializer
-import slick.code.Scores
+import slick.driver.PostgresDriver.api._
 import slick.jdbc.JdbcBackend.Database
 import slick.lifted.TableQuery
+import slickTest.code.Scores
+
 import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent.Future
 import scala.io.StdIn
+import scala.language.postfixOps
 import scala.util.{Failure, Success}
 
-object httpSlickDemo extends App {
+object httpSlick extends App {
   implicit val system = ActorSystem("my-system")
   implicit val materializer = ActorMaterializer()
 

@@ -1,4 +1,4 @@
-package slick.code
+package slickTest.code
 
 //#imports
 import scala.concurrent.ExecutionContext.Implicits.global
