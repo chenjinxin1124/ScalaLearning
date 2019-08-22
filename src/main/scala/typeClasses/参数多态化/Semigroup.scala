@@ -5,9 +5,6 @@ package typeClasses.参数多态化
   * @Date: Created in 下午3:40 19-8-20
   * @Description:
   */
-class Semigroup {
-
-}
 
 object Semigroup extends App {
 

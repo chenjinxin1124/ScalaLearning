@@ -8,11 +8,11 @@ package typeClasses.参数多态化
 
 
 object Demo1 extends App {
-
+  // 1
   trait Hasher[T] {
     def hash(arg: T): Int
   }
-
+  // 2
   implicit object IntHasher extends Hasher[Int] {
     def hash(arg: Int): Int = arg
   }
