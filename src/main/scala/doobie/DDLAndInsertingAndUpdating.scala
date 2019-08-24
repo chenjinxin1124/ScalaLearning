@@ -14,7 +14,7 @@ import cats.data._
 import cats.effect.IO
 import cats.implicits._
 
-object DDL extends App {
+object DDLAndInsertingAndUpdating extends App {
 
   // We need a ContextShift[IO] before we can construct a Transactor[IO]. The passed ExecutionContext
   // is where nonblocking operations will be executed. For testing here we're using a synchronous EC.
@@ -33,7 +33,6 @@ object DDL extends App {
   val y = xa.yolo
 
   import y._
-
   /*println("-------------------------------Data Definition-----------------------------------------")
   val drop =
     sql"""
@@ -116,6 +115,7 @@ object DDL extends App {
   import fs2.Stream
 
   type PersonInfo = (String, Option[Short])
+
   def insertMany2(ps: List[PersonInfo]): Stream[ConnectionIO, Person] = {
     val sql = "insert into person (name, age) values (?, ?)"
     Update[PersonInfo](sql).updateManyWithGeneratedKeys[Person]("id", "name", "age")(ps)

@@ -8,7 +8,7 @@ package doobie
 import cats._, cats.data._, cats.implicits._
 import doobie._
 
-object DoobieTest1 extends App {
+object Introduction extends App {
   case class Person(name: String, age: Int)
   val nel = NonEmptyList.of(Person("Bob", 12), Person("Alice", 14))
   println(nel.head)

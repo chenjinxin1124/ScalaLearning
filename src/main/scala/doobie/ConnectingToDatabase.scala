@@ -13,7 +13,7 @@ import cats._
 import cats.effect._
 import cats.implicits._
 
-object JdbcDemo extends App {
+object ConnectingToDatabase extends App {
   val program1 = 42.pure[ConnectionIO]
   // program1: ConnectionIO[Int] = Pure(42)
   // println(program1)
