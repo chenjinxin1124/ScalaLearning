@@ -35,3 +35,6 @@ libraryDependencies ++= Seq(
   , "io.circe" %% "circe-parser" % circeV
   , "io.circe" %% "circe-generic-extras" % circeV
 )
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.7"
+//testOptions in Test += Tests.Argument("-oI") 只显示失败
+libraryDependencies += "org.tpolecat" % "doobie-scalatest_2.11" % "0.4.0"
