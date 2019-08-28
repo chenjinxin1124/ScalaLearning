@@ -38,3 +38,9 @@ libraryDependencies ++= Seq(
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.7"
 //testOptions in Test += Tests.Argument("-oI") 只显示失败
 libraryDependencies += "org.tpolecat" % "doobie-scalatest_2.11" % "0.4.0"
+libraryDependencies += "org.tpolecat" %% "doobie-hikari" % "0.7.0"
+libraryDependencies += "org.tpolecat" %% "doobie-postgres" % "0.7.0"
+libraryDependencies += "net.postgis" % "postgis-jdbc" % "2.3.0"
+
+libraryDependencies += "org.tpolecat" %% "doobie-quill" % "0.7.0"
+libraryDependencies ++= Seq("org.tpolecat" %% "doobie-quill" % "0.7.0", "io.getquill" %% "quill-sql" % "3.1.0", "io.getquill" %% "quill-jdbc" % "3.1.0")
