@@ -44,3 +44,5 @@ libraryDependencies += "net.postgis" % "postgis-jdbc" % "2.3.0"
 
 libraryDependencies += "org.tpolecat" %% "doobie-quill" % "0.7.0"
 libraryDependencies ++= Seq("org.tpolecat" %% "doobie-quill" % "0.7.0", "io.getquill" %% "quill-sql" % "3.1.0", "io.getquill" %% "quill-jdbc" % "3.1.0")
+
+scalacOptions += "-Ypartial-unification"
