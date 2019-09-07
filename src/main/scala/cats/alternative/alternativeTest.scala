@@ -23,6 +23,13 @@ object alternativeTest extends App {
   println(addFive)
   println(apForVectors)
 
-
+  println("------------------------------------------------------------------------------------------------------------------------------")
+  def getRegionAndDistrict(pkey: Int): (Int, Vector[Int]) = (5 * pkey, (double.pure[Vector] <+> addFive.pure[Vector]) ap pkey.pure[Vector])
+  val regionsWithDistricts = (getRegionAndDistrict _).pure[Vector] ap Vector(5, 6, 7, 97, 1200, 8, 25)
+  val regionIds = regionsWithDistricts.separate._1
+  val districtIds = regionsWithDistricts.separate._2.flatten
+  println(regionsWithDistricts)
+  println(regionIds)
+  println(districtIds)
 
 }
