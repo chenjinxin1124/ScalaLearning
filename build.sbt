@@ -45,4 +45,9 @@ libraryDependencies += "net.postgis" % "postgis-jdbc" % "2.3.0"
 libraryDependencies += "org.tpolecat" %% "doobie-quill" % "0.7.0"
 libraryDependencies ++= Seq("org.tpolecat" %% "doobie-quill" % "0.7.0", "io.getquill" %% "quill-sql" % "3.1.0", "io.getquill" %% "quill-jdbc" % "3.1.0")
 
+libraryDependencies ++= Seq(
+  "org.typelevel" %% "cats-laws" % "2.0.0" % Test,
+  "com.github.alexarchambault" %% "scalacheck-shapeless_1.14" % "1.2.3" % Test
+)
+
 scalacOptions += "-Ypartial-unification"
