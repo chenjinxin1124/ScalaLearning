@@ -1,5 +1,5 @@
-name in Global := "simple"
-organization in Global := "simple"
+name in Global := "Interview"
+organization in Global := "Interview"
 scalaVersion in Global := "2.12.8"
 
 libraryDependencies ++= Seq(
