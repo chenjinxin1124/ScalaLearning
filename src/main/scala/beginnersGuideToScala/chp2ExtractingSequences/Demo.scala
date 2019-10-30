@@ -1,4 +1,4 @@
-package beginnersGuideToScala.extractingSequences
+package beginnersGuideToScala.chp2ExtractingSequences
 
 /**
   * @Author: chenjinxin

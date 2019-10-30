@@ -1,9 +1,9 @@
-package beginnersGuideToScala.extractors
+package beginnersGuideToScala.chp1Extractors
 
 /**
   * @Author: chenjinxin
   * @Date: Created in 上午11:01 19-9-30
-  * @Description:
+  * @Description: https://windor.gitbooks.io/beginners-guide-to-scala/content/
   */
 object Demo extends App {
 

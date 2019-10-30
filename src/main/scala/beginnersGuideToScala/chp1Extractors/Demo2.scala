@@ -1,4 +1,4 @@
-package beginnersGuideToScala.extractors
+package beginnersGuideToScala.chp1Extractors
 
 /**
   * @Author: chenjinxin
