@@ -50,4 +50,8 @@ libraryDependencies ++= Seq(
   "com.github.alexarchambault" %% "scalacheck-shapeless_1.14" % "1.2.3" % Test
 )
 
+libraryDependencies += "joda-time" % "joda-time" % "2.1"
+
+libraryDependencies += "org.joda" % "joda-convert" % "1.3"
+
 scalacOptions += "-Ypartial-unification"
