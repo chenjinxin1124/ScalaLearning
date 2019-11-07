@@ -5,6 +5,7 @@ package Interview.javaCode;
  * @Date: Created in 下午4:00 19-9-29
  * @Description:
  */
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -33,23 +34,11 @@ public class B3_2 {
     public static void main(String[] args) {
         long t1 = System.currentTimeMillis();
         long n = 1000000000;
-        long result=0;
-        for (int i = 0; i < 100; ++i) {
-            result = F(n - 1) % mod;
-            System.out.println(result);
-        }
+        long result = 0;
+        result = F(n - 1) % mod;
+        System.out.println(result);
         long t2 = System.currentTimeMillis();
         System.out.println(t2 - t1);
-
-
-        /*System.out.println(t1);
-        System.out.println(t2);
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        String fmDate = simpleDateFormat.format(t1);
-        System.err.println(fmDate);
-        fmDate = simpleDateFormat.format(t2);
-        System.err.println(fmDate);
-        System.out.println(t2 - t1);*/
     }
 }
 

@@ -1,4 +1,4 @@
-package Interview
+package Interview.scalaCode
 
 import scala.io.Source
 

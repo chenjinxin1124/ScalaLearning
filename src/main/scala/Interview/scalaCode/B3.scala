@@ -1,7 +1,12 @@
-package Interview
+package Interview.scalaCode
 
 import java.util.Date
 
+/**
+  * @Author: chenjinxin
+  * @Date: Created in 下午3:53 19-11-6
+  * @Description:
+  */
 object B3 extends App {
 
   def f(up: Int) = {

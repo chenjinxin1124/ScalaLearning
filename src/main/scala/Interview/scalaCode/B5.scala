@@ -1,7 +1,4 @@
-package Interview
-
-import java.util
-import java.util.ArrayList
+package Interview.scalaCode
 
 import scala.collection.mutable.ArrayBuffer
 

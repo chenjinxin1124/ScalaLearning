@@ -1,4 +1,5 @@
-package Interview
+package Interview.scalaCode
+
 import java.util.Date
 
 class Result(val r: Long, val i: Int, val j: Int, val k: Int, val l: Int) {}
