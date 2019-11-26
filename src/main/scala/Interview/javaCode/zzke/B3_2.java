@@ -1,13 +1,10 @@
-package Interview.javaCode;
+package Interview.javaCode.zzke;
 
 /**
  * @Author: chenjinxin
  * @Date: Created in 下午4:00 19-9-29
  * @Description:
  */
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 public class B3_2 {
     final static long mod = 1000000007;

@@ -1,6 +1,4 @@
-package Interview.scalaCode
-
-import scala.io.Source
+package Interview.scalaCode.zzke
 
 /**
   * @Author: chenjinxin

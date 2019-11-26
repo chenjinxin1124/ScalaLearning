@@ -1,8 +1,6 @@
-package Interview.scalaCode
+package Interview.scalaCode.zzke
 
 import java.util.Date
-
-import akka.http.scaladsl.server.util.Tuple
 
 class Matrix(private var n: Long) {
   val mod = 1000000007

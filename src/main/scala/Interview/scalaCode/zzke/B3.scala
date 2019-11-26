@@ -1,6 +1,4 @@
-package Interview.scalaCode
-
-import java.util.Date
+package Interview.scalaCode.zzke
 
 /**
   * @Author: chenjinxin

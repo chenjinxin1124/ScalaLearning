@@ -1,6 +1,4 @@
-package Interview.scalaCode
-
-import scala.collection.mutable.ArrayBuffer
+package Interview.scalaCode.zzke
 
 /**
   * @Author: chenjinxin

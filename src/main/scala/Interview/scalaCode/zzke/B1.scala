@@ -1,4 +1,4 @@
-package Interview.scalaCode
+package Interview.scalaCode.zzke
 
 import java.util.Date
 
